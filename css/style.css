@@ -447,7 +447,7 @@ a{
   position: relative;
   left:90px;
 }
-@media  screen and (max-width:500px){
+@media(max-width:450px) {
     background{
         width:400px;
     }
@@ -469,20 +469,22 @@ a{
     .image{
         display: block;
         position: relative;
-        top: 5rem;
+        top: 2rem;
         left: -8rem;
       
     }
     #section2>#about_me{
         width: auto;
         height: 100px;
+        position: relative;
+        top: 12rem;
     }
     
     #section2>#about_me>p{
         font-size: 18px;
         position: relative;
         left:150px;
-        top: 15rem;
+        top: 32rem;
         
        text-align: center;
         
@@ -596,8 +598,8 @@ a{
     #section2>#about_me>p{
         font-size: 18px;
         position: relative;
-        left:150px;
-        top: 47rem;
+        left:180px;
+        top: 34rem;
         
        text-align: center;
         
