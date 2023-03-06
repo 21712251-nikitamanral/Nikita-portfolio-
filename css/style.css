@@ -89,7 +89,7 @@ header>#dropdown{
     /* border: 1px solid rgb(18, 11, 11); */
     /* background-color: black; */
  
-     display: none; 
+      display: none;  
 }
 .ham{
     line-height: 2cm;
@@ -333,7 +333,7 @@ svg>:hover{
     
 }
 #section2>#sec2_back{
-    background-color:#0a192f;
+    background-color:transparent;
     width:30%;
     height:80%;
     /* display: flex;
@@ -393,7 +393,7 @@ svg>:hover{
 
 }
 #section3>#last{
-    background-color:#0a192f;
+    background-color:transparent;
     width:500px;
     height:400px;
 }
@@ -451,12 +451,25 @@ a{
     background{
         width:400px;
     }
+    #section1>button{
+        position: relative;
+        left:75px;
+    }
+    #extra{
+        height:5rem;
+        width:80%;
+        background-color:transparent;
+      position: relative;
+      left:60px;
+    }
     
     #section1>#middle2>h2{
-        font-size: 40px;
+        font-size: 25px;
     }
     #section1>#middle3>h2{
-        font-size: 3.5em;
+        font-size: 25px;
+        position: relative;
+        left: -3rem;
     }
     #img1{
         display: block;
@@ -467,36 +480,50 @@ a{
         display: none;
     }
     .image{
-        display: block;
+        /* display: block; */
         position: relative;
         top: 2rem;
-        left: -8rem;
+        left: -5rem;
       
+    }
+    .image>img{
+        position: relative;
+        left: -3rem;
+    }
+    .overlay_image{
+        position: relative;
+        left:-5rem;
+    }
+    #sec2_back{
+        position: relative;
+        left:20px;
     }
     #section2>#about_me{
         width: auto;
         height: 100px;
         position: relative;
-        top: 12rem;
+        top: 20rem;
+        left:-5rem;
     }
     
     #section2>#about_me>p{
         font-size: 18px;
         position: relative;
-        left:150px;
+        left:10px;
         top: 32rem;
         
        text-align: center;
         
     }
-      #last{
-        position: relative;
-        top:-200px;
-        left:400px;
-    } 
-    #last>button{
+      /* #last{
+        /* position: relative;
+        top:6rem;
+        left:400px; 
+    }  */
+    .button{
         position:relative;
         top:-90px;
+        left:-5rem;
     }
     header>svg{
         display: block;
@@ -516,18 +543,20 @@ a{
     }
     #section3{
         position: relative;
-        top: 5rem;
+        top: 30rem;
         right: 15rem;
         background-color: transparent;
     }
-    #last{
-        position: relative;
-        top: 30rem;
-        right: 51rem;
-    }
+    
     #last123{
         position: relative;
-        right: 6rem;
+        left: -8rem;
+        top: 8rem;
+    }
+    #last123+h2{
+        position: relative;
+        top: 8rem;
+        left:-90px;
     }
     #dimag{
         position: relative;
@@ -535,7 +564,7 @@ a{
     }
     #dropdown{
         position: relative;
-        left: 15rem;
+        left: -13rem;
         background-color: transparent;
     }
   #left{
@@ -545,6 +574,25 @@ a{
   #right{
     display:none;
   }
+  #dimag{
+    position: relative;
+    left: -16rem;
+  }
+
+  #hamb{
+    display: block;
+    position: relative;
+    left: 0rem;
+    
+}
+.ham{
+    position: relative;
+    left:0rem;
+}
+  /* .button{
+    position: relative;
+    left: -9rem;
+  } */
    
     
 }
@@ -609,9 +657,9 @@ a{
         top:-100px;
         left:400px;
     } 
-    #last>button{
+    #last.button{
         position:relative;
-        top:-90px;
+        left:90rem+;
     }
     header>svg{
         display: block;
